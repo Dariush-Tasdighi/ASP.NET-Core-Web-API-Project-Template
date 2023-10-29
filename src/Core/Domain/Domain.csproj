@@ -7,14 +7,13 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\..\Framework\Dtat.Seedwork.Abstractions\Dtat.Seedwork.Abstractions.csproj" />
-		<ProjectReference Include="..\..\Framework\Dtat\Dtat.csproj" />
 		<ProjectReference Include="..\Constants\Constants.csproj" />
 		<ProjectReference Include="..\Resources\Resources.csproj" />
+		<ProjectReference Include="..\..\Framework\Dtat\Dtat.csproj" />
+		<ProjectReference Include="..\..\Framework\Dtat.Seedwork.Abstractions\Dtat.Seedwork.Abstractions.csproj" />
 	</ItemGroup>
 
 	<ItemGroup>
-		<Folder Include="Features\Identity\" />
 		<Folder Include="Features\Location\" />
 	</ItemGroup>
 
